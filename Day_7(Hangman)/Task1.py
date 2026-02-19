@@ -31,3 +31,8 @@ print(guess)
 # TODO -3 CHeck if the letter the user guessed (guess) is one of the letters in the choosen word print "right",
 #  if it is "wrong" if it's not.
 
+for letter in chosen_word:
+    if letter == guess:
+        print("right")
+    else:
+         print("wrong")
